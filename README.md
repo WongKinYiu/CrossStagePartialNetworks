@@ -84,8 +84,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 
 | Model | Size | 9900K *fps* |  AP  | AP50 | AP75 | cfg | weight |
 | :---- | :--: | :----------: | :--: | :--: | :--: | - | - |
-| YOLOv3-tiny [[1]](https://arxiv.org/abs/1804.02767) | 320×320 | 54 | - | 33.1 | - | [cfg](https://github.com/WongKinYiu/PartialResidualNetworks/blob/master/cfg/yolov3-tiny.cfg) | [weight](https://pjreddie.com/media/files/yolov3-tiny.weights) |
-| YOLOv3-tiny-PRN [[17]](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Wang_Enriching_Variety_of_Layer-Wise_Learning_Information_by_Gradient_Combination_ICCVW_2019_paper.pdf) | 320×320 | 71 | - | 33.1 | - | [cfg](https://github.com/WongKinYiu/PartialResidualNetworks/blob/master/cfg/yolov3-tiny-prn.cfg) | [weight](https://github.com/WongKinYiu/PartialResidualNetworks/blob/master/model/yolov3-tiny-prn.weights) |
+| YOLOv3-tiny [[1]](https://arxiv.org/abs/1804.02767) | 416×416 | 54 | - | 33.1 | - | [cfg](https://github.com/WongKinYiu/PartialResidualNetworks/blob/master/cfg/yolov3-tiny.cfg) | [weight](https://pjreddie.com/media/files/yolov3-tiny.weights) |
+| YOLOv3-tiny-PRN [[17]](http://openaccess.thecvf.com/content_ICCVW_2019/papers/LPCV/Wang_Enriching_Variety_of_Layer-Wise_Learning_Information_by_Gradient_Combination_ICCVW_2019_paper.pdf) | 416×416 | 71 | - | 33.1 | - | [cfg](https://github.com/WongKinYiu/PartialResidualNetworks/blob/master/cfg/yolov3-tiny-prn.cfg) | [weight](https://github.com/WongKinYiu/PartialResidualNetworks/blob/master/model/yolov3-tiny-prn.weights) |
 | SNet49-ThunderNet* [[18]](https://arxiv.org/abs/1903.11752) | 320×320 | 47 | 19.1 | 33.7 | 19.6 | - | - |
 | **Ours** | 320×320 | 102 | 15.3 | 34.2 | 12.0 | - | - |
 |  |  |  |  |  |  |  |  |
@@ -138,3 +138,6 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 [[18] ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/abs/1903.11752) (ICCV 2019)
 
 [[19] RefineDetLite: A Lightweight One-stage Object Detection Framework for CPU-only Devices](https://arxiv.org/abs/1911.08855)
+
+# Acknowledgements
+[https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
