@@ -141,4 +141,5 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 
 # Acknowledgements
 [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+
 [https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3)
