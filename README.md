@@ -16,7 +16,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 |  |  |  |  |  |
 | ResNet-50 [[2]](https://arxiv.org/abs/1512.03385) | 22.73M | 9.74 | 75.8 | 92.9 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnet50.cfg) | [weight](https://pjreddie.com/media/files/resnet50.weights) |
 | **CSPResNet-50** | 21.57M **(-5%)** | 8.97 **(-8%)** | 76.6 **(+0.8)** | 93.3 **(+0.4)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnet50.cfg) | [weight](https://drive.google.com/open?id=1pNU6DctLlf3mnJI-opZL6kCx_hSNsEKj) |
-| **CSPResNet-50-Elastic** | - | 9.36 **(-4%)** | 76.8 **(+1.0)** | 93.5 **(+0.6)** | - | - |
+| **CSPResNet-50-Elastic** | - | 9.36 **(-4%)** | 76.8 **(+1.0)** | 93.5 **(+0.6)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnet50-elastic.cfg) | [weight](https://drive.google.com/open?id=1IOc96Y-qH-n5hkJ7mEynP5U_aKyE8oke) |
 |  |  |  |  |  |
 | ResNeXt-50 [[3]](https://arxiv.org/abs/1611.05431) | 22.19M | 10.11 | 77.8 | 94.2 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnext50.cfg) | [weight](https://pjreddie.com/media/files/resnext50.weights) |
 | **CSPResNeXt-50** | 20.50M **(-8%)** | 7.930 **(-22%)** | 77.9 **(+0.1)** | 94.0 **(-0.2)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50.cfg) | [weight](https://drive.google.com/open?id=1IxKu5lAYCo4UpzAl5pOBIDAvC843vjn1) |
