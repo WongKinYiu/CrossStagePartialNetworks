@@ -1,5 +1,5 @@
 # Cross Stage Partial Networks
-This is the implementation of "???" using Darknet framwork.
+This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)" using Darknet framwork.
 
 For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://github.com/AlexeyAB/darknet).
 
