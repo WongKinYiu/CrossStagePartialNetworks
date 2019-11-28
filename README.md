@@ -117,6 +117,13 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 0.65 | **38.6** | 59.7 | 42.1 | **20.1** | **41.9** | **50.4** |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 0.70 | 38.5 | 59.2 | **42.4** | **20.1** | **41.9** | **50.4** |
 
+2. Activation function
+
+| Model | Size | Activation |  AP  | AP50 | AP75 | APS | APM | APL |
+| :---- | :--: | :-------: |:--: | :--: | :--: | :-: | :-: | :-: |
+| **CSPPeleeNet-PRN** | 416×416 | Leaky ReLU | 23.1 | 44.5 | 22.0 | 6.6 | 24.4 | 35.3 |
+| **CSPPeleeNet-PRN** | 416×416 | Swish | 24.1 | 45.8 | 23.3 | 6.8 | 26.1 | 35.5 |
+
 # Reference
 
 [[1] YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)
