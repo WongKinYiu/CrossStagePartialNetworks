@@ -104,6 +104,19 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 
 ※Pelee** and RefineDetLite** are test on i7-6700.
 
+# Some tricks for improving AP
+
+1. NMS threshold
+
+| Model | Size | Threshold |  AP  | AP50 | AP75 | APS | APM | APL |
+| :---- | :--: | :-------: |:--: | :--: | :--: | :-: | :-: | :-: |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.45 | 38.0 | 60.0 | 40.8 | 19.7 | 41.4 | 49.9 |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.50 | 38.2 | **60.2** | 41.1 | 19.8 | 41.6 | 50.1 |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.55 | 38.4 | 60.1 | 41.3 | 20.0 | 41.7 | 50.3 |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | **0.60** | 38.5 | 60.0 | 41.7 | **20.1** | **41.9** | **50.4** |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.65 | **38.6** | 59.7 | 42.1 | **20.1** | **41.9** | **50.4** |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.70 | 38.5 | 59.2 | **42.4** | **20.1** | **41.9** | **50.4** |
+
 # Reference
 
 [[1] YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)
