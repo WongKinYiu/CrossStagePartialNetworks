@@ -14,15 +14,15 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 |  |  |  |  |  |
 | DarkNet-53 [[1]](https://arxiv.org/abs/1804.02767) | 41.57M | 18.57 | 77.2 | 93.8 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/darknet53.cfg) | [weight](https://pjreddie.com/media/files/darknet53.weights) |
 | **CSPDarkNet-53** | 27.61M **(-34%)** | 13.07 **(-30%)** | 77.2 **(=)** | 93.6 **(-0.2)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csdarknet53.cfg) | [weight](https://drive.google.com/open?id=1dZJIxngmFpQJvsa6y7XADfSxkXCjJTzp) |
-| **CSPDarkNet-53-Elastic** | - | 7.74 | - | - | - | - |
+| **CSPDarkNet-53-Elastic** | - | 7.74 **(-58%)** | ~~76.0~~ | ~~93.2~~ | - | - |
 |  |  |  |  |  |
 | ResNet-50 [[2]](https://arxiv.org/abs/1512.03385) | 22.73M | 9.74 | 75.8 | 92.9 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnet50.cfg) | [weight](https://pjreddie.com/media/files/resnet50.weights) |
 | **CSPResNet-50** | 21.57M **(-5%)** | 8.97 **(-8%)** | 76.6 **(+0.8)** | 93.3 **(+0.4)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnet50.cfg) | [weight](https://drive.google.com/open?id=1pNU6DctLlf3mnJI-opZL6kCx_hSNsEKj) |
 | **CSPResNet-50-Elastic** | - | 9.36 **(-4%)** | 76.8 **(+1.0)** | 93.5 **(+0.6)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnet50-elastic.cfg) | [weight](https://drive.google.com/open?id=1IOc96Y-qH-n5hkJ7mEynP5U_aKyE8oke) |
 |  |  |  |  |  |
 | ResNeXt-50 [[3]](https://arxiv.org/abs/1611.05431) | 22.19M | 10.11 | 77.8 | 94.2 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnext50.cfg) | [weight](https://pjreddie.com/media/files/resnext50.weights) |
-| **CSPResNeXt-50** | 20.50M **(-8%)** | 7.930 **(-22%)** | 77.9 **(+0.1)** | 94.0 **(-0.2)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50.cfg) | [weight](https://drive.google.com/open?id=1IxKu5lAYCo4UpzAl5pOBIDAvC843vjn1) |
-| **CSPResNeXt-50-Elastic** | - | 5.45 | - | - | - | - |
+| **CSPResNeXt-50** | 20.50M **(-8%)** | 7.93 **(-22%)** | 77.9 **(+0.1)** | 94.0 **(-0.2)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50.cfg) | [weight](https://drive.google.com/open?id=1IxKu5lAYCo4UpzAl5pOBIDAvC843vjn1) |
+| **CSPResNeXt-50-Elastic** | - | 5.45 **(-46%)** | ~~77.2~~ | ~~93.8~~ | - | - |
 | HarDNet-138s [[4]](https://arxiv.org/abs/1909.00948) | 35.5M | 13.4 | 77.8 | - | - | - |
 | DenseNet-264-32 [[5]](https://arxiv.org/abs/1608.06993) | 27.21M | 11.03 | 77.8 | 93.9 | - | - |
 | ResNet-152 [[2]](https://arxiv.org/abs/1512.03385) | 60.2M | 22.6 | 77.8 | 93.6 | - | - |
@@ -30,7 +30,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | DenseNet-201-Elastic [[6]](https://arxiv.org/abs/1812.05262) | 19.48M | 8.77 | 77.9 | 94.0 | - | - |
 | **CSPDenseNet-201-Elastic** | 20.17M **(+4%)** | 7.13 **(-19%)** | 77.9 **(=)** | 94.0 **(=)** | - | - |
 |  |  |  |  |  |
-| Res2NetLite-72 [[7]](https://arxiv.org/abs/1911.08855) | - | 5.19 | - | - | - | - |
+| Res2NetLite-72 [[7]](https://arxiv.org/abs/1911.08855) | - | 5.19 | 74.7 | 92.1 | - | - |
 |  |  |  |  |  |
 
 
@@ -118,13 +118,31 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt50-PANet-SPP** | 512×512 | **0.60** | 38.5 | 60.0 | 41.7 | **20.1** | **41.9** | **50.4** |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 0.65 | **38.6** | 59.7 | 42.1 | **20.1** | **41.9** | **50.4** |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 0.70 | 38.5 | 59.2 | **42.4** | **20.1** | **41.9** | **50.4** |
+|  |  |  |  |  |  |  |  |  |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.45 | 39.4 | 59.4 | 42.5 | 20.4 | 42.6 | 51.4 |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.50 | 39.7 | **59.5** | 42.7 | 20.5 | 42.5 | 51.7 |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.55 | 39.8 | **59.5** | 43.0 | 20.7 | 43.1 | 51.9 |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | **0.60** | 40.0 | 59.3 | 43.4 | 20.8 | 43.2 | 52.0 |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.65 | **40.1** | 59.0 | 43.8 | **20.9** | **43.4** | **52.1** |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.70 | **40.1** | 58.6 | **44.2** | **20.9** | **43.4** | **52.1** |
 
 2. Activation function
 
 | Model | Size | Activation |  AP  | AP50 | AP75 | APS | APM | APL |
-| :---- | :--: | :-------: |:--: | :--: | :--: | :-: | :-: | :-: |
+| :---- | :--: | :--------: | :--: | :--: | :--: | :-: | :-: | :-: |
 | **CSPPeleeNet-PRN** | 416×416 | Leaky ReLU | 23.1 | 44.5 | 22.0 | 6.6 | 24.4 | 35.3 |
 | **CSPPeleeNet-PRN** | 416×416 | Swish | 24.1 | 45.8 | 23.3 | 6.8 | 26.1 | 35.5 |
+| **CSPPeleeNet-PRN** | 416×416 | Mish | - | - | - | - | - | - |
+
+3. Loss function
+
+| Model | Size | Loss |  AP  | AP50 | AP75 | APS | APM | APL |
+| :---- | :--: | :--: | :--: | :--: | :--: | :-: | :-: | :-: |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | MSE | 38.0 | 60.0 | 40.8 | 19.7 | 41.4 | 49.9 |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | GIoU | 39.4 | 59.4 | 42.5 | 20.4 | 42.6 | 51.4 |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | IoU | - | - | - | - | - | - |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | DIoU | - | - | - | - | - | - |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | CIoU | - | - | - | - | - | - |
 
 # Reference
 
