@@ -125,6 +125,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | **0.60** | 40.0 | 59.3 | 43.4 | 20.8 | 43.2 | 52.0 |
 | **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.65 | **40.1** | 59.0 | 43.8 | **20.9** | **43.4** | **52.1** |
 | **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.70 | **40.1** | 58.6 | **44.2** | **20.9** | **43.4** | **52.1** |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | **aware** | 40.0 | **59.5** | 43.4 | 20.8 | 43.2 | 52.0 |
 
 2. Activation function
 
