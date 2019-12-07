@@ -46,6 +46,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPPeleeNet** | 2.83M **(+1%)** | 0.888 **(-13%)** | 70.9 **(+0.2)** | 90.2 **(+0.2)** | - | - |
 | **CSPPeleeNet-swish** | 2.83M **(+1%)** | 0.888 **(-13%)** | 71.7 **(+0.2)** | 90.8 **(+0.1)** | - | - |
 | **CSPPeleeNet-swish-SE** | 2.85M **(+1%)** | 0.888 **(-13%)** | 72.4 **(+0.3)** | 91.0 **(=)** | - | - |
+| **CSPPeleeNet-mish** | 2.83M **(+1%)** | 0.888 **(-13%)** | 71.2 | 90.3 | - | - |
 | SparsePeleeNet [[9]](https://arxiv.org/abs/1801.05895) | 2.39M | 0.904 | 69.6 | 89.3 | - | - |
 |  |  |  |  |  |
 | EfficientNet-B0* [[10]](https://arxiv.org/abs/1905.11946) | 4.81M | 0.915 | 71.3 | 90.4 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/enetb0.cfg) | [weight](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/weight/enetb0_final.weights) |
