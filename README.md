@@ -46,7 +46,6 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPPeleeNet** | 2.83M **(+1%)** | 0.888 **(-13%)** | 70.9 **(+0.2)** | 90.2 **(+0.2)** | - | - |
 | **CSPPeleeNet-swish** | 2.83M **(+1%)** | 0.888 **(-13%)** | 71.7 **(+0.2)** | 90.8 **(+0.1)** | - | - |
 | **CSPPeleeNet-swish-SE** | 2.85M **(+1%)** | 0.888 **(-13%)** | 72.4 **(+0.3)** | 91.0 **(=)** | - | - |
-| **CSPPeleeNet-mish** | 2.83M **(+1%)** | 0.888 **(-13%)** | 71.2 | 90.3 | - | - |
 | SparsePeleeNet [[9]](https://arxiv.org/abs/1801.05895) | 2.39M | 0.904 | 69.6 | 89.3 | - | - |
 |  |  |  |  |  |
 | EfficientNet-B0* [[10]](https://arxiv.org/abs/1905.11946) | 4.81M | 0.915 | 71.3 | 90.4 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/enetb0.cfg) | [weight](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/weight/enetb0_final.weights) |
@@ -64,6 +63,11 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | ResNet-10 [[2]](https://arxiv.org/abs/1512.03385) | 5.24M | 2.273 | 63.5 | 85.0 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnet10.cfg) | [weight](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/weight/resnet10_final.weights) |
 | **CSPResNet-10** | 2.73M **(-48%)** | 1.905 **(-16%)** | 65.3 **(+1.8)** | 86.5 **(+1.5)** | - | - |
 |  |  |  |  |  |
+<!--
+| PeleeNet-mish | 2.79M | 1.017 | 71.4 | 90.4 | - | - |
+| **CSPPeleeNet-mish** | 2.83M **(+1%)** | 0.888 **(-13%)** | 71.2 | 90.3 | - | - |
+| MixNet-M-GPU | - | - | 71.5 | 90.5 | - | - |
+-->
 
 ※EfficientNet* is implemented by Darknet framework.
 
