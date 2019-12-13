@@ -77,6 +77,25 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 
 ※Squeeze-and-excitation (SE) network is presented by [[14]](https://arxiv.org/abs/1709.01507).
 
+# Some tricks for improving Acc
+
+1. Activation function
+
+| Model | Activation | #Parameter | BFLOPs | Top-1 | Top-5 |
+| :---- | :--------: | :--------: | :----: | :---: | :---: |
+| **CSPPeleeNet** | LReLU | 2.83M | 0.888 | 70.9 | 90.2 |
+| **CSPPeleeNet** | Swish | 2.83M | 0.888 | 71.7 **(+0.8)** | 90.8 **(+0.6)** |
+| **CSPPeleeNet** | Mish | 2.83M | 0.888 | 71.2 **(+0.3)** | 90.3 **(+0.1)** |
+
+2. Data augmentation
+
+| Model | Augmentation | #Parameter | BFLOPs | Top-1 | Top-5 |
+| :---- | :--------: | :--------: | :----: | :---: | :---: |
+| **CSPResNeXt-50** | Normal | 20.50M | 7.93 | 77.9 | 94.0 |
+| **CSPResNeXt-50** | Mixup | 20.50M | 7.93 | - | - |
+| **CSPResNeXt-50** | Cutmix | 20.50M | 7.93 | - | - |
+| **CSPResNeXt-50** | Cutmix+Mixup | 20.50M | 7.93 | - | - |
+
 # MS COCO
 
 ## GPU Real-time Models
