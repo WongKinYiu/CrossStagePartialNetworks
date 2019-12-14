@@ -63,11 +63,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | ResNet-10 [[2]](https://arxiv.org/abs/1512.03385) | 5.24M | 2.273 | 63.5 | 85.0 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnet10.cfg) | [weight](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/weight/resnet10_final.weights) |
 | **CSPResNet-10** | 2.73M **(-48%)** | 1.905 **(-16%)** | 65.3 **(+1.8)** | 86.5 **(+1.5)** | - | - |
 |  |  |  |  |  |
-<!--
-| PeleeNet-mish | 2.79M | 1.017 | 71.4 | 90.4 | - | - |
-| **CSPPeleeNet-mish** | 2.83M **(+1%)** | 0.888 **(-13%)** | 71.2 | 90.3 | - | - |
-| MixNet-M-GPU | - | - | 71.5 | 90.5 | - | - |
--->
+| MixNet-M-GPU | - | 1.065 | 71.5 | 90.5 | - | - |
+|  |  |  |  |  |
 
 ※EfficientNet* is implemented by Darknet framework.
 
@@ -77,24 +74,45 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 
 ※Squeeze-and-excitation (SE) network is presented by [[14]](https://arxiv.org/abs/1709.01507).
 
+※MixNet-M-GPU is modified from MixNet-M [[21]](https://arxiv.org/abs/1907.09595)
+
 # Some tricks for improving Acc
 
 1. Activation function
 
-| Model | Activation | #Parameter | BFLOPs | Top-1 | Top-5 |
-| :---- | :--------: | :--------: | :----: | :---: | :---: |
-| **CSPPeleeNet** | LReLU | 2.83M | 0.888 | 70.9 | 90.2 |
-| **CSPPeleeNet** | Swish | 2.83M | 0.888 | 71.7 **(+0.8)** | 90.8 **(+0.6)** |
-| **CSPPeleeNet** | Mish | 2.83M | 0.888 | 71.2 **(+0.3)** | 90.3 **(+0.1)** |
+| Model | Activation | Top-1 | Top-5 |
+| :---- | :--------: | :---: | :---: |
+| PeleeNet | LReLU | 70.7 | 90.0 |
+| PeleeNet | Swish | 71.5 **(+0.8)** | 90.7 **(+0.7)** |
+| PeleeNet | Mish | 71.4 **(+0.7)** | 90.4 **(+0.4)** |
+|  |  |  |  |
+| **CSPPeleeNet** | LReLU | 70.9 | 90.2 |
+| **CSPPeleeNet** | Swish | 71.7 **(+0.8)** | 90.8 **(+0.6)** |
+| **CSPPeleeNet** | Mish | 71.2 **(+0.3)** | 90.3 **(+0.1)** |
+|  |  |  |  |
+| **CSPResNeXt-50** | LReLU | 77.9 | 94.0 |
+| **CSPResNeXt-50** | Mish | 78.9 **(+1.0)** | 94.5 **(+0.5)** |
+|  |  |  |  |
+<!--
+| **CSPResNeXt-50** | Swish | 64.5 **(-13.4)** | 86.0 **(-8.0)** |
+-->
+※Swish activation function is not suitable for ResNeXt-based models, details are shown in Mish paper [[22]](https://arxiv.org/abs/1908.08681).
 
 2. Data augmentation
 
-| Model | Augmentation | #Parameter | BFLOPs | Top-1 | Top-5 |
-| :---- | :--------: | :--------: | :----: | :---: | :---: |
-| **CSPResNeXt-50** | Normal | 20.50M | 7.93 | 77.9 | 94.0 |
-| **CSPResNeXt-50** | Mixup | 20.50M | 7.93 | - | - |
-| **CSPResNeXt-50** | Cutmix | 20.50M | 7.93 | - | - |
-| **CSPResNeXt-50** | Cutmix+Mixup | 20.50M | 7.93 | - | - |
+| Model | Augmentation | Top-1 | Top-5 |
+| :---- | :--------: | :---: | :---: |
+| **CSPResNeXt-50** | Normal | 77.9 | 94.0 |
+| **CSPResNeXt-50** | Mixup | 77.2 | 94.0 |
+| **CSPResNeXt-50** | Cutmix | 78.0 | 94.3 |
+| **CSPResNeXt-50** | Cutmix+Mixup | 77.7 | 94.4 |
+|  |  |  |  |
+
+※Mixup is presented by [[23]](https://arxiv.org/abs/1710.09412) and used by [[24]](https://arxiv.org/abs/1902.04103).
+
+※CutMix is presented by [[25]](https://arxiv.org/abs/1905.04899).
+
+※~~Have to check the implementation of mixup and cutmix~~.
 
 # MS COCO
 
@@ -165,7 +183,6 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | :---- | :--: | :--: | :--: | :--: | :--: | :-: | :-: | :-: |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | MSE | 38.0 | 60.0 | 40.8 | 19.7 | 41.4 | 49.9 |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | GIoU | 39.4 | 59.4 | 42.5 | 20.4 | 42.6 | 51.4 |
-| **CSPResNeXt50-PANet-SPP** | 512×512 | IoU | - | - | - | - | - | - |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | DIoU | - | - | - | - | - | - |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | CIoU | - | - | - | - | - | - |
 
@@ -210,6 +227,16 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 [[19] ThunderNet: Towards Real-time Generic Object Detection](https://arxiv.org/abs/1903.11752) (ICCV 2019)
 
 [[20] RefineDetLite: A Lightweight One-stage Object Detection Framework for CPU-only Devices](https://arxiv.org/abs/1911.08855)
+
+[[21] MixConv: Mixed Depthwise Convolutional Kernels](https://arxiv.org/abs/1907.09595)
+
+[[22] Mish: A Self Regularized Non-Monotonic Neural Activation Function](https://arxiv.org/abs/1908.08681)
+
+[[23] mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412) (ICLR 2018)
+
+[[24] Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/abs/1902.04103)
+
+[[25] CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/abs/1905.04899) (ICCV 2019)
 
 # Acknowledgements
 [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
