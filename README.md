@@ -106,6 +106,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt-50** | Mixup | 77.2 | 94.0 |
 | **CSPResNeXt-50** | Cutmix | 78.0 | 94.3 |
 | **CSPResNeXt-50** | Cutmix+Mixup | 77.7 | 94.4 |
+| **CSPResNeXt-50** | Mosaic | - | - |
+| **CSPResNeXt-50** | Blur | - | - |
 |  |  |  |  |
 
 ※Mixup is presented by [[23]](https://arxiv.org/abs/1710.09412) and used by [[24]](https://arxiv.org/abs/1902.04103).
@@ -113,6 +115,15 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 ※CutMix is presented by [[25]](https://arxiv.org/abs/1905.04899).
 
 ※~~Have to check the implementation of mixup and cutmix~~.
+
+3. Other
+
+| Model | Method | Top-1 | Top-5 |
+| :---- | :--------: | :---: | :---: |
+| **CSPResNeXt-50** | Normal | 77.9 | 94.0 |
+| **CSPResNeXt-50** | Smooth | - | - |
+
+※Smooth means label smoothing, which is presented by [[26]](https://arxiv.org/abs/1512.00567).
 
 # MS COCO
 
@@ -237,6 +248,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 [[24] Bag of Freebies for Training Object Detection Neural Networks](https://arxiv.org/abs/1902.04103)
 
 [[25] CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/abs/1905.04899) (ICCV 2019)
+
+[[26] Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) (CVPR 2016)
 
 # Acknowledgements
 [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
