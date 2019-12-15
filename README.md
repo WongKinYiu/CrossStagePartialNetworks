@@ -197,6 +197,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt50-PANet-SPP** | 512×512 | DIoU | - | - | - | - | - | - |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | CIoU | - | - | - | - | - | - |
 
+※DIoU and CIoU are presented by [[27]](https://arxiv.org/abs/1911.08287).
+
 # Reference
 
 [[1] YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767)
@@ -250,6 +252,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 [[25] CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features](https://arxiv.org/abs/1905.04899) (ICCV 2019)
 
 [[26] Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) (CVPR 2016)
+
+[[27] Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://arxiv.org/abs/1911.08287) (AAAI 2020)
 
 # Acknowledgements
 [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
