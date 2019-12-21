@@ -132,7 +132,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | Model | Size | 1080ti *fps* |  AP  | AP50 | AP75 | cfg | weight |
 | :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :----: |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 44 | 38.0 | 60.0 | 40.8 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1Y6vJQf-Vu9O0tB10IUYNttktA-DLp5T1) |
-| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 44 | 39.4 | 59.4 | 42.5 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1idBDUSLbP7v4lc9ivkvlnxYk96PdS5hr) |
+| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 44 | 39.4 | 59.4 | 42.5 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-giou.cfg) | [weight](https://drive.google.com/open?id=1idBDUSLbP7v4lc9ivkvlnxYk96PdS5hr) |
 
 ※PANet is presented by [[15]](https://arxiv.org/abs/1803.01534).
 
