@@ -1,8 +1,6 @@
 # Cross Stage Partial Networks
 This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)" using Pytorch framwork.
 
-![](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/fig/cmp.png)
-
 For installing Pytorch YOLOv3, you can refer to [YOLOv3(ultralytics)](https://github.com/ultralytics/yolov3).
 
 This branch shows the results train **CSPNet** from scratch using Pytorch.
