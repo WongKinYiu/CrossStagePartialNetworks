@@ -9,9 +9,9 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 
 # MS COCO
 
-| Model | Size | 1080ti *fps* |  AP  | AP50 | AP75 |
-| :---- | :--: | :----------: | :--: | :--: | :--: |
-| **CSPNet-PANet-SPP** | 416×416 | 238 | 26.5 | 44.8 | 27.0 |
+| Model | Size | NMS | 1080ti *fps* |  AP  | AP50 | AP75 |
+| :---- | :--: | :-: |:----------: | :--: | :--: | :--: |
+| **CSPNet-PANet-SPP** | 416×416 | 0.5 | 238 | 26.5 | 44.8 | 27.0 |
 
 # Acknowledgements
 [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
