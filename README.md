@@ -9,14 +9,18 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 
 | Model | Size | Pretrain | NMS | 1080ti *fps* |  AP  | AP50 | AP75 | cfg | weight |
 | :---- | :--: | :------: | :-: | :----------: | :--: | :--: | :--: | :-: | :----: |
-| **YOLOv3-tiny (baseline)** | 416×416 |  |  | 330 |  |  |  |  |  |
+| **YOLOv3-SPP (baseline)** | 512×512 | No | 0.5 | 50 | 39.7 | 60.5 | 42.2 | - | - |
+| **CSPResNet50c-PANet-SPP** | 512×512 | No | 0.5 | 56 | 38.4 | 58.5 | 41.0 | - | - |
+|  |  |  |  |  |  |  |  |  |  |
+| **YOLOv3-SPP (baseline)** | 608×608 | No | 0.5 | 35 | 40.1 | 60.9 | 42.8 | - | - |
+| **CSPResNet50c-PANet-SPP** | 608×608 | No | 0.5 | 40 | 38.9 | 59.2 | 41.6 | - | - |
+|  |  |  |  |  |  |  |  |  |  |
+
+| Model | Size | Pretrain | NMS | 1080ti *fps* |  AP  | AP50 | AP75 | cfg | weight |
+| :---- | :--: | :------: | :-: | :----------: | :--: | :--: | :--: | :-: | :----: |
+| **YOLOv3-tiny (baseline)** | 416×416 | No | 0.5 | 330 |  |  |  |  |  |
 | **CSPNet-PANet-SPP** | 416×416 | No | 0.5 | 238 | 26.5 | 44.8 | 27.0 | - | - |
 | **CSPNet-YOLOv3-SPP** | 416×416 | No | 0.5 | 220 | 24.9 | 43.6 | 24.9 | - | - |
-|  |  |  |  |  |  |  |  |  |  |
-| **YOLOv3-SPP (baseline)** | 512×512 |  |  | 50 |  |  |  |  |  |
-| **YOLOv3-SPP (baseline)** | 608×608 |  |  | 35 |  |  |  |  |  |
-| **CSPResNet50c-PANet-SPP** | 512×512 | No | 0.5 | 56 | 38.4 | 58.5 | 41.0 | - | - |
-| **CSPResNet50c-PANet-SPP** | 608×608 | No | 0.5 | 40 | 38.9 | 59.2 | 41.6 | - | - |
 |  |  |  |  |  |  |  |  |  |  |
 
 ※ the current fps is a rough estimation, while i am training other models when testing it. 
