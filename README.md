@@ -106,8 +106,8 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt-50** | Mixup | 77.2 | 94.0 |
 | **CSPResNeXt-50** | Cutmix | 78.0 | 94.3 |
 | **CSPResNeXt-50** | Cutmix+Mixup | 77.7 | 94.4 |
-| **CSPResNeXt-50** | Mosaic | - | - |
-| **CSPResNeXt-50** | Blur | - | - |
+| **CSPResNeXt-50** | Mosaic | 78.1 | 94.5 |
+| **CSPResNeXt-50** | Blur | 77.5 | 94.8 |
 |  |  |  |  |
 
 ※Mixup is presented by [[23]](https://arxiv.org/abs/1710.09412) and used by [[24]](https://arxiv.org/abs/1902.04103).
@@ -121,7 +121,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | Model | Method | Top-1 | Top-5 |
 | :---- | :--------: | :---: | :---: |
 | **CSPResNeXt-50** | Normal | 77.9 | 94.0 |
-| **CSPResNeXt-50** | Smooth | - | - |
+| **CSPResNeXt-50** | Smooth | 78.1 | 94.4 |
 
 ※Smooth means label smoothing, which is presented by [[26]](https://arxiv.org/abs/1512.00567).
 
@@ -186,7 +186,6 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | :---- | :--: | :--------: | :--: | :--: | :--: | :-: | :-: | :-: |
 | **CSPPeleeNet-PRN** | 416×416 | Leaky ReLU | 23.1 | 44.5 | 22.0 | 6.6 | 24.4 | 35.3 |
 | **CSPPeleeNet-PRN** | 416×416 | Swish | 24.1 | 45.8 | 23.3 | 6.8 | 26.1 | 35.5 |
-| **CSPPeleeNet-PRN** | 416×416 | Mish | - | - | - | - | - | - |
 
 3. Loss function
 
