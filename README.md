@@ -107,7 +107,7 @@ For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://g
 | **CSPResNeXt-50** | Cutmix | 78.0 | 94.3 |
 | **CSPResNeXt-50** | Cutmix+Mixup | 77.7 | 94.4 |
 | **CSPResNeXt-50** | Mosaic | 78.1 | 94.5 |
-| **CSPResNeXt-50** | Blur | 77.5 | 94.8 |
+| **CSPResNeXt-50** | Blur | 77.5 | 93.8 |
 |  |  |  |  |
 
 ※Mixup is presented by [[23]](https://arxiv.org/abs/1710.09412) and used by [[24]](https://arxiv.org/abs/1902.04103).
