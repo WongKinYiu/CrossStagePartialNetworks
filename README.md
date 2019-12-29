@@ -18,6 +18,9 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 
 | Model | Size | Pretrain | NMS | 1080ti *fps* |  AP  | AP50 | AP75 | cfg | weight |
 | :---- | :--: | :------: | :-: | :----------: | :--: | :--: | :--: | :-: | :----: |
+| **CSPNet-PANet-SPP** | 320×320 | No | 0.5 | - | 23.8 | 40.5 | 24.2 | - | - |
+| **CSPNet-YOLOv3-SPP** | 320×320 | No | 0.5 | - | 22.2 | 39.5 | 22.0 | - | - |
+|  |  |  |  |  |  |  |  |  |  |
 | **YOLOv3-tiny (baseline)** | 416×416 | No | 0.5 | 330 | 16.6 | 33.0 | 14.9 | - | - |
 | **CSPNet-PANet-SPP** | 416×416 | No | 0.5 | 238 | 26.5 | 44.8 | 27.0 | - | - |
 | **CSPNet-YOLOv3-SPP** | 416×416 | No | 0.5 | 220 | 24.9 | 43.6 | 24.9 | - | - |
