@@ -5,6 +5,15 @@ This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning
 
 For installing Darknet framework, you can refer to [darknet(AlexeyAB)](https://github.com/AlexeyAB/darknet).
 
+Combining with [CIoU](https://github.com/AlexeyAB/darknet/issues/4360), [Scale Sensitivity](https://github.com/AlexeyAB/darknet/issues/3293), [IoU Threshold](https://github.com/AlexeyAB/darknet/issues/4451), [Greedy NMS](https://github.com/AlexeyAB/darknet/issues/4360), [Mosaic Augmentation](https://github.com/AlexeyAB/darknet/issues/4264), ...
+
+CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO object detection task:
+
+| Model | Size | 1080ti *fps* |  AP  | AP50 | AP75 | APS | APM | APL |
+| :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :-: | :-: |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 44 | 42.4 | 64.4 | 45.9 | 23.2 | 45.5 | 55.3 |
+| **CSPResNeXt50-PANet-SPP** | 608×608 | 35 | 43.2 | 65.4 | 47.0 | 25.7 | 46.7 | 53.3 | 
+
 # ImageNet
 
 ## Big Models
