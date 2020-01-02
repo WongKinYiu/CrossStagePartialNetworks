@@ -9,10 +9,10 @@ Combining with [CIoU](https://github.com/AlexeyAB/darknet/issues/4360), [Scale S
 
 CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO object detection task:
 
-| Model | Size | 1080ti *fps* |  AP  | AP50 | AP75 | APS | APM | APL |
-| :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :-: | :-: |
-| **CSPResNeXt50-PANet-SPP** | 512×512 | 44 | 42.4 | 64.4 | 45.9 | 23.2 | 45.5 | 55.3 |
-| **CSPResNeXt50-PANet-SPP** | 608×608 | 35 | 43.2 | 65.4 | 47.0 | 25.7 | 46.7 | 53.3 | 
+| Model | Size | 1080ti *fps* |  AP  | AP50 | AP75 | APS | APM | APL | cfg | weight |
+| :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :-: | :-: | :-: | :----: |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 44 | 42.4 | 64.4 | 45.9 | 23.2 | 45.5 | 55.3 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-original-optimal.cfg) | [weight](https://drive.google.com/open?id=1CP1IGmo29TCVr6SxozRE16yqG67JXr2b) |
+| **CSPResNeXt50-PANet-SPP** | 608×608 | 35 | 43.2 | 65.4 | 47.0 | 25.7 | 46.7 | 53.3 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-original-optimal.cfg) | [weight](https://drive.google.com/open?id=1CP1IGmo29TCVr6SxozRE16yqG67JXr2b) |
 
 # ImageNet
 
