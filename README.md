@@ -16,8 +16,8 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 | **CSPDarknet53m-PANet-SPP** | 512×512 | 0.5 | 48 | 88.264 | 39.8 | 60.1 | 42.6 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csdarknet53m-panet-spp.cfg) | [weight](https://drive.google.com/open?id=10hWJHjcqSyBJca6uVpslvEm_-a_S9XNa) |
 |  |  |  |  |  |  |  |  |  |
 | **YOLOv3-SPP (baseline)** | 608×608 | 0.5 | 35 | 141.500 | 40.1 | 60.9 | 42.8 | - | - |
-| **CSPResNeXt50c-YOLO-SPP** | 608×608 | 0.5 | 34 | 105.699 | 38.9 | 60.3 | 41.3 | - | - |
-| **CSPResNet50c-PANet-SPP** | 608×608 | 0.5 | 40 | 83.176 | 38.9 | 59.2 | 41.6 | - | - |
+| **CSPResNeXt50c-YOLO-SPP** | 608×608 | 0.5 | 34 | 83.176 | 38.9 | 60.3 | 41.3 | - | - |
+| **CSPResNet50c-PANet-SPP** | 608×608 | 0.5 | 40 | 105.699 | 38.9 | 59.2 | 41.6 | - | - |
 | **CSPDarknet53s-PANet-SPP** | 608×608 | 0.5 | 38 | 124.655 | 40.2 | 60.6 | 43.3 | - | - |
 | **CSPDarknet53m-PANet-SPP** | 608×608 | 0.5 | 36 | 124.466 | 40.1 | 60.6 | 43.1 | - | - |
 |  |  |  |  |  |  |  |  |  |
