@@ -202,7 +202,7 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 | :---- | :--: | :--: | :--: | :--: | :--: | :-: | :-: | :-: |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | MSE | 38.0 | 60.0 | 40.8 | 19.7 | 41.4 | 49.9 |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | GIoU | 39.4 | 59.4 | 42.5 | 20.4 | 42.6 | 51.4 |
-| **CSPResNeXt50-PANet-SPP** | 512×512 | DIoU | - | - | - | - | - | - |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | DIoU | 39.1 | 58.8 | 42.1 | 20.1 | 42.4 | 50.7 |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | CIoU | 39.6 | 59.2 | 42.6 | 20.5 | 42.9 | 51.6 |
 
 ※DIoU and CIoU are presented by [[27]](https://arxiv.org/abs/1911.08287).
