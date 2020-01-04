@@ -29,6 +29,7 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 |  |  |  |  |  |  |  |  |  |
 | **YOLOv3-tiny (baseline)** | 416×416 | 0.5 | 330 | 16.6 | 33.0 | 14.9 | - | - |
 | **CSPNet-PANet-SPP** | 416×416 | 0.5 | 238 | 26.5 | 44.8 | 27.0 | - | - |
+| **CSPNet-PANet-SPP (darknet)** | 416×416 | 0.5 | 238 | 24.4 | 45.9 | 23.7 | - | - |
 | **CSPNet-YOLOv3-SPP** | 416×416 | 0.5 | 220 | 24.9 | 43.6 | 24.9 | - | - |
 |  |  |  |  |  |  |  |  |  |
 
