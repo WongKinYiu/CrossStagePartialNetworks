@@ -11,18 +11,18 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 | :---- | :--: | :-: | :----------: | :----: | :--: | :--: | :--: | :-: | :----: |
 | **YOLOv3-SPP (baseline)** | 512×512 | 0.5 | 50 | 100.343 | 39.7 | 60.5 | 42.2 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/yolov3-spp.cfg) | [weight](https://drive.google.com/open?id=1ijv8jWVKX9q7Qjfm_iQDHtGc39DaJJ6M) |
 | **CSPResNeXt50c-YOLO-SPP** | 512×512 | 0.5 | 43 | 58.983 | 38.4 | 59.6 | 40.5 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csresnext50c-yolo-spp.cfg) | [weight](https://drive.google.com/open?id=1QWyghhT2NzYlmGtiem6dz3mB3OmvF6UV) |
-| **CSPDarknet53-YOLO-SPP** | 512×512 | 0.5 |  | 75.513 | 39.2 | 60.2 | 41.6 |  |  |
-| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.5 | 44 |  |  |  |  |  |  |
-| **CSPResNeXt50c-PANet-SPP** | 512×512 | 0.5 |  |  |  |  |  |  |  |
+| **CSPDarknet53-YOLO-SPP** | 512×512 | 0.5 |  | 75.513 | 39.2 | 60.2 | 41.6 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csdarknet53-yolo-spp.cfg) |  |
+| **CSPResNeXt50-PANet-SPP** | 512×512 | 0.5 | 44 | 71.331 |  |  |  | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csresnext50-panet-spp.cfg) |  |
+| **CSPResNeXt50c-PANet-SPP** | 512×512 | 0.5 |  | 71.734 |  |  |  | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csresnext50c-panet-spp.cfg) |  |
 | **CSPResNet50c-PANet-SPP** | 512×512 | 0.5 | 56 | 74.955 | 38.4 | 58.5 | 41.0 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csresnet50c-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1_slhW7CCUZQctwCpRsNiNCtZIuvexeA1) |
 | **CSPDarknet53s-PANet-SPP** | 512×512 | 0.5 | 50 | 88.398 | 40.0 | 60.4 | 42.9 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csdarknet53s-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1wX1pe6qJpb_uSPjNQJbWzKnvVnF3PY9b) |
 | **CSPDarknet53m-PANet-SPP** | 512×512 | 0.5 | 48 | 88.264 | 39.8 | 60.1 | 42.6 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/pytorch/cfg/csdarknet53m-panet-spp.cfg) | [weight](https://drive.google.com/open?id=10hWJHjcqSyBJca6uVpslvEm_-a_S9XNa) |
 |  |  |  |  |  |  |  |  |  |
 | **YOLOv3-SPP (baseline)** | 608×608 | 0.5 | 35 | 141.500 | 40.1 | 60.9 | 42.8 | - | - |
 | **CSPResNeXt50c-YOLO-SPP** | 608×608 | 0.5 | 34 | 83.176 | 38.9 | 60.3 | 41.3 | - | - |
-| **CSPDarknet53-YOLO-SPP** | 608×608 | 0.5 |  | 106.485 | 39.6 | 60.7 | 42.3 |  |  |
-| **CSPResNeXt50-PANet-SPP** | 608×608 | 0.5 | 35 |  |  |  |  |  |  |
-| **CSPResNeXt50c-PANet-SPP** | 608×608 | 0.5 |  |  |  |  |  |  |  |
+| **CSPDarknet53-YOLO-SPP** | 608×608 | 0.5 |  | 106.485 | 39.6 | 60.7 | 42.3 | - | - |
+| **CSPResNeXt50-PANet-SPP** | 608×608 | 0.5 | 35 | 100.588 |  |  |  | - | - |
+| **CSPResNeXt50c-PANet-SPP** | 608×608 | 0.5 |  | 101.156 |  |  |  | - | - |
 | **CSPResNet50c-PANet-SPP** | 608×608 | 0.5 | 40 | 105.699 | 38.9 | 59.2 | 41.6 | - | - |
 | **CSPDarknet53s-PANet-SPP** | 608×608 | 0.5 | 38 | 124.655 | 40.2 | 60.6 | 43.3 | - | - |
 | **CSPDarknet53m-PANet-SPP** | 608×608 | 0.5 | 36 | 124.466 | 40.1 | 60.6 | 43.1 | - | - |
