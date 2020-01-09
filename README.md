@@ -141,13 +141,12 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 | Model | Size | 1080ti *fps* |  AP  | AP50 | AP75 | cfg | weight |
 | :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :----: |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 44 | 38.0 | 60.0 | 40.8 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1Y6vJQf-Vu9O0tB10IUYNttktA-DLp5T1) |
-| **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 44 | 39.4 | 59.4 | 42.5 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-giou.cfg) | [weight](https://drive.google.com/open?id=1idBDUSLbP7v4lc9ivkvlnxYk96PdS5hr) |
+| **CSPDarknet53-PANet-SPP** | 512×512 | 51 | 38.7 | 61.3 | 41.7 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csdarknet53-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1ezwtlTmQ1woHGZNtmKUdmyx-jqFElafA) |
+| **CSPResNet50-PANet-SPP** | 512×512 | 55 | 38.0 | 60.5 | 40.7 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnet50-panet-spp.cfg) | [weight](https://drive.google.com/open?id=1Ctfeejgi3iUVL37yLLZD-er0iBq-ZbU0) |
 
 ※PANet is presented by [[15]](https://arxiv.org/abs/1803.01534).
 
 ※SPP is presented by [[16]](https://arxiv.org/abs/1406.4729).
-
-※GIoU is presented by [[17]](https://arxiv.org/abs/1902.09630).
 
 ## CPU Real-time Models
 
@@ -188,6 +187,8 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 | **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.65 | **40.1** | 59.0 | 43.8 | **20.9** | **43.4** | **52.1** |
 | **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | 0.70 | **40.1** | 58.6 | **44.2** | **20.9** | **43.4** | **52.1** |
 | **CSPResNeXt50-PANet-SPP-GIoU** | 512×512 | **aware** | 40.0 | **59.5** | 43.4 | 20.8 | 43.2 | 52.0 |
+
+※GIoU is presented by [[17]](https://arxiv.org/abs/1902.09630).
 
 2. Activation function
 
