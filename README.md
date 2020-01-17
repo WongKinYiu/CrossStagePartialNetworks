@@ -32,12 +32,13 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 | ResNeXt-50 [[3]](https://arxiv.org/abs/1611.05431) | 22.19M | 10.11 | 77.8 | 94.2 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/resnext50.cfg) | [weight](https://pjreddie.com/media/files/resnext50.weights) |
 | **CSPResNeXt-50** | 20.50M **(-8%)** | 7.93 **(-22%)** | 77.9 **(+0.1)** | 94.0 **(-0.2)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50.cfg) | [weight](https://drive.google.com/open?id=1IxKu5lAYCo4UpzAl5pOBIDAvC843vjn1) |
 | **CSPResNeXt-50-Elastic** | - | 5.45 **(-46%)** | 77.2 **(-0.6)** | 93.8 **(-0.4)** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-elastic.cfg) | [weight](https://drive.google.com/open?id=134irBbpEnfPGE7NzorRqjukCt59GxeQ2) |
+| **CSPResNeXt-50+Elastic** | - | 7.82 **(-23%)** |  **()** |  **()** | - | - |
 | HarDNet-138s [[4]](https://arxiv.org/abs/1909.00948) | 35.5M | 13.4 | 77.8 | - | - | - |
 | DenseNet-264-32 [[5]](https://arxiv.org/abs/1608.06993) | 27.21M | 11.03 | 77.8 | 93.9 | - | - |
 | ResNet-152 [[2]](https://arxiv.org/abs/1512.03385) | 60.2M | 22.6 | 77.8 | 93.6 | - | - |
 |  |  |  |  |  |
-| DenseNet-201-Elastic [[6]](https://arxiv.org/abs/1812.05262) | 19.48M | 8.77 | 77.9 | 94.0 | - | - |
-| **CSPDenseNet-201-Elastic** | 20.17M **(+4%)** | 7.13 **(-19%)** | 77.9 **(=)** | 94.0 **(=)** | - | - |
+| DenseNet-201+Elastic [[6]](https://arxiv.org/abs/1812.05262) | 19.48M | 8.77 | 77.9 | 94.0 | - | - |
+| **CSPDenseNet-201+Elastic** | 20.17M **(+4%)** | 7.13 **(-19%)** | 77.9 **(=)** | 94.0 **(=)** | - | - |
 |  |  |  |  |  |
 | Res2NetLite-72 [[7]](https://arxiv.org/abs/1911.08855) | - | 5.19 | 74.7 | 92.1 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/res2netlite72.cfg) | [weight](https://drive.google.com/open?id=1ryxtvUjKRVXhZK05K7UK80iDS3yK5gbF) |
 |  |  |  |  |  |
