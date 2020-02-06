@@ -11,6 +11,8 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 
 | Model | Size | *fps* |  AP  | AP50 | AP75 | APS | APM | APL | cfg | weight |
 | :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :-: | :-: | :-: | :----: |
+| **CSPResNeXt50-PANet-SPP(SAM)** | 512×512 | - | 42.7 | 64.6 | 46.3 | 23.7 | 46.1 | 55.3 | - | - |
+| **CSPResNeXt50-PANet-SPP(SAM)** | 608×608 | - | 43.2 | 65.4 | 47.1 | 26.1 | 46.7 | 53.2 | - | - |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 44(1080ti) 67(GV100) | 42.4 | 64.4 | 45.9 | 23.2 | 45.5 | 55.3 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-original-optimal.cfg) | [weight](https://drive.google.com/open?id=1CP1IGmo29TCVr6SxozRE16yqG67JXr2b) |
 | **CSPResNeXt50-PANet-SPP** | 608×608 | 35(1080ti) 44(GV100) | 43.2 | 65.4 | 47.0 | 25.7 | 46.7 | 53.3 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-original-optimal.cfg) | [weight](https://drive.google.com/open?id=1CP1IGmo29TCVr6SxozRE16yqG67JXr2b) |
 
