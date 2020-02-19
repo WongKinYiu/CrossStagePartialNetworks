@@ -2,7 +2,7 @@
 
 ## CSPResNeXt-50 optimal
 
-| Scale | Mosaic | IoU Threshold | Generic | Label Smoothing | Anchor | AP | AP50 | AP75 | cfg | weight |
+| Scale | Mosaic | IoU Threshold | Genetic | Label Smoothing | Anchor | AP | AP50 | AP75 | cfg | weight |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |  |  |  |  |  |  |  |  |  | - | - |
 | :heavy_check_mark: |  |  |  |  |  | 37.7 | 59.9 | 40.5 | - | - |
