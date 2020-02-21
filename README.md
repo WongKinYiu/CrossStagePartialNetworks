@@ -39,6 +39,10 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 | **CSPNet-YOLOv3-SPP** | 416×416 | 0.5 | 220 | 24.9 | 43.6 | 24.9 | - | - |
 |  |  |  |  |  |  |  |  |  |
 
+| Model | Size | 1080ti *fps* | TX2 *fps* | TX2(TRT-F) *fps* | Xavier *fps* | Xavier(TRT-I) *fps* |  AP  | AP50 | AP75 |
+| :---- | :--: | :----------: | :-------: | :--------------: | :----------: | :-----------------: | :--: | :--: | :--: |
+| **CSPNet-PANet-SPP** | 416×416 | 238 | 38 | 44 | 117 | 254 | 26.5 | 44.8 | 27.0 |
+
 ※ the current fps is a rough estimation, while i am training other models when testing it.
 
 ※ multi-scale training use input size 288 to 640, except CSPResNeXt50c-PANet-SPP use 320 to 608.
