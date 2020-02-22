@@ -8,7 +8,7 @@
 | :heavy_check_mark: |  |  |  |  |  | 37.7 | 59.9 | 40.5 | - | - |
 |  | :heavy_check_mark: |  |  |  |  |  |  |  | - | - |
 |  |  | :heavy_check_mark: |  |  |  | 36.9 | 59.7 | 39.4 | - | - |
-|  |  |  | :heavy_check_mark: |  |  |  |  |  | - | - |
+|  |  |  | :heavy_check_mark: |  |  | 38.9 | 61.7 | 41.9 | - | - |
 |  |  |  |  | :heavy_check_mark: |  | 37.2 | 59.4 | 39.9 | - | - |
 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: | 42.4 | 64.4 | 45.9 | - | - |
 
