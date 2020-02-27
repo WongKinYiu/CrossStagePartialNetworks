@@ -4,7 +4,7 @@
 
 | Scale | Mosaic | IoU Threshold | Genetic | Label Smoothing | Anchor | AP | AP50 | AP75 | cfg | weight |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|  |  |  |  |  |  |  |  |  | - | - |
+|  |  |  |  |  |  | 37.7 | 60.0 | 40.6 | - | - |
 | :heavy_check_mark: |  |  |  |  |  | 37.7 | 59.9 | 40.5 | - | - |
 |  | :heavy_check_mark: |  |  |  |  | 39.1 | 61.8 | 42.0 | - | - |
 |  |  | :heavy_check_mark: |  |  |  | 36.9 | 59.7 | 39.4 | - | - |
