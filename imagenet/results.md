@@ -32,3 +32,10 @@
 |  |  |  |  |  |  |  | 77.2% | 93.6% | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csdarknet53.cfg) | [weight](https://drive.google.com/open?id=1dZJIxngmFpQJvsa6y7XADfSxkXCjJTzp) |
 |  | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  |  | **77.8%** | **94.4%** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csdarknet53-gamma.cfg) | [weight](https://drive.google.com/open?id=1AaOqYpoyZWRre3i64VU6zOMGomek64Qa) |
 |  | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  | :heavy_check_mark: | **78.7%** | **94.8%** | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csdarknet53-omega.cfg) | [weight](https://drive.google.com/open?id=1TfEaUO69MhkHJSDUf5Gc2ENK1BA8Qu1B) |
+
+
+## SpineNet-49
+
+| MixUp | CutMix | Mosaic | Bluring | Label Smoothing | Swish | Mish | Top-1 | Top-5 | cfg | weight |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|  | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: |  | :heavy_check_mark: | **78.3%** | **94.6%** | - | - |
