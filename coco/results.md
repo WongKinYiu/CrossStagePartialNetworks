@@ -2,15 +2,16 @@
 
 ## CSPResNeXt-50 optimal
 
-| Scale | Mosaic | IoU Threshold | Genetic | Label Smoothing | Anchor | AP | AP50 | AP75 | cfg | weight |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|  |  |  |  |  |  | 37.7 | 60.0 | 40.6 | - | - |
-| :heavy_check_mark: |  |  |  |  |  | 37.7 | 59.9 | 40.5 | - | - |
-|  | :heavy_check_mark: |  |  |  |  | 39.1 | 61.8 | 42.0 | - | - |
-|  |  | :heavy_check_mark: |  |  |  | 36.9 | 59.7 | 39.4 | - | - |
-|  |  |  | :heavy_check_mark: |  |  | 38.9 | 61.7 | 41.9 | - | - |
-|  |  |  |  | :heavy_check_mark: |  | 37.2 | 59.4 | 39.9 | - | - |
-| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  | :heavy_check_mark: | 42.4 | 64.4 | 45.9 | - | - |
+| Scale | Mosaic | IoU Threshold | Genetic | Label Smoothing | cbn | Anchor | AP | AP50 | AP75 | cfg | weight |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|  |  |  |  |  |  |  | 37.7 | 60.0 | 40.6 | - | - |
+| :heavy_check_mark: |  |  |  |  |  |  | 37.7 | 59.9 | 40.5 | - | - |
+|  | :heavy_check_mark: |  |  |  |  |  | 39.1 | 61.8 | 42.0 | - | - |
+|  |  | :heavy_check_mark: |  |  |  |  | 36.9 | 59.7 | 39.4 | - | - |
+|  |  |  | :heavy_check_mark: |  |  |  | 38.9 | 61.7 | 41.9 | - | - |
+|  |  |  |  | :heavy_check_mark: |  |  | 37.2 | 59.4 | 39.9 | - | - |
+|  |  |  |  |  | :heavy_check_mark: |  | 38.4 | 60.7 | 41.3 | - | - |
+| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  | :heavy_check_mark: | 42.4 | 64.4 | 45.9 | - | - |
 
 | Model | Size | *fps* |  AP  | AP50 | AP75 | APS | APM | APL | cfg | weight |
 | :---- | :--: | :----------: | :--: | :--: | :--: | :-: | :-: | :-: | :-: | :----: |
