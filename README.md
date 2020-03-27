@@ -17,6 +17,7 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 | **CSPResNeXt50-PANet-SPP(GIoU)** | 608×608 | - | 43.1 | 65.4 | 47.0 | 26.0 | 46.9 | 52.8 | - | - |
 | **CSPResNeXt50-PANet-SPP** | 512×512 | 44(1080ti) 67(GV100) | 42.4 | 64.4 | 45.9 | 23.2 | 45.5 | 55.3 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-original-optimal.cfg) | [weight](https://drive.google.com/open?id=1CP1IGmo29TCVr6SxozRE16yqG67JXr2b) |
 | **CSPResNeXt50-PANet-SPP** | 608×608 | 35(1080ti) 44(GV100) | 43.2 | 65.4 | 47.0 | 25.7 | 46.7 | 53.3 | [cfg](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/cfg/csresnext50-panet-spp-original-optimal.cfg) | [weight](https://drive.google.com/open?id=1CP1IGmo29TCVr6SxozRE16yqG67JXr2b) |
+| **CSPDarknet53-PANet-SPP** | 512×512 | 51(1080ti) | 42.4 | 64.5 | 46.0 | 23.9 | 45.6 | 54.2 | [cfg](https://drive.google.com/open?id=15WhN7W8UZo7-4a0iLkx11Z7_sDVHU4l1) | [weight](https://drive.google.com/open?id=1ULnPnamS5A6lOgidlBXD24IdxoDAFaaV) |
 
 # ImageNet
 
