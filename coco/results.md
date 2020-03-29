@@ -11,6 +11,7 @@
 |  |  |  | :heavy_check_mark: |  |  |  | 38.9 | 61.7 | 41.9 | - | - |
 |  |  |  |  | :heavy_check_mark: |  |  | 37.2 | 59.4 | 39.9 | - | - |
 |  |  |  |  |  | :heavy_check_mark: |  | 38.4 | 60.7 | 41.3 | - | - |
+| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  |  | 41.5 | 64.0 | 44.8 | - | - |
 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  | :heavy_check_mark: | 42.4 | 64.4 | 45.9 | - | - |
 
 | Model | Size | *fps* |  AP  | AP50 | AP75 | APS | APM | APL | cfg | weight |
