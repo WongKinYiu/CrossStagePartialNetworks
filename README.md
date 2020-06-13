@@ -1,5 +1,5 @@
 # Cross Stage Partial Networks
-This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)" using Darknet framwork.
+This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w28/Wang_CSPNet_A_New_Backbone_That_Can_Enhance_Learning_Capability_of_CVPRW_2020_paper.pdf)" using Darknet framwork.
 
 ![](https://github.com/WongKinYiu/CrossStagePartialNetworks/blob/master/fig/cmp3.png)
 
@@ -213,6 +213,18 @@ CSPResNeXt-50-PANet-SPP acheives impressive results on test-dev set of MSCOCO ob
 | **CSPResNeXt50-PANet-SPP** | 512×512 | CIoU | 39.6 | 59.2 | 42.6 | 20.5 | 42.9 | 51.6 |
 
 ※DIoU and CIoU are presented by [[27]](https://arxiv.org/abs/1911.08287).
+
+# Citation
+
+```
+@inproceedings{wang2020cspnet,
+  title={CSPNet: A new backbone that can enhance learning capability of cnn},
+  author={Wang, Chien-Yao and Mark Liao, Hong-Yuan and Wu, Yueh-Hua and Chen, Ping-Yang and Hsieh, Jun-Wei and Yeh, I-Hau},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={390--391},
+  year={2020}
+}
+```
 
 # Reference
 
