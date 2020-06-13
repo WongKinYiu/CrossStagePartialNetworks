@@ -1,5 +1,5 @@
 # Cross Stage Partial Networks
-This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)" using Pytorch framwork.
+This is the implementation of "[CSPNet: A New Backbone that can Enhance Learning Capability of CNN](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w28/Wang_CSPNet_A_New_Backbone_That_Can_Enhance_Learning_Capability_of_CVPRW_2020_paper.pdf)" using Pytorch framwork.
 
 For installing Pytorch YOLOv3, you can refer to [YOLOv3(ultralytics)](https://github.com/ultralytics/yolov3).
 
@@ -46,6 +46,18 @@ This branch shows the results train **CSPNet** from scratch using Pytorch.
 ※ the current fps is a rough estimation, while i am training other models when testing it.
 
 ※ multi-scale training use input size 288 to 640, except CSPResNeXt50c-PANet-SPP use 320 to 608.
+
+# Citation
+
+```
+@inproceedings{wang2020cspnet,
+  title={CSPNet: A new backbone that can enhance learning capability of cnn},
+  author={Wang, Chien-Yao and Mark Liao, Hong-Yuan and Wu, Yueh-Hua and Chen, Ping-Yang and Hsieh, Jun-Wei and Yeh, I-Hau},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={390--391},
+  year={2020}
+}
+```
 
 # Acknowledgements
 [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
